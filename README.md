@@ -66,5 +66,15 @@ See `q4_external_factors.sql`.
 ![Q4 all stores](q4a_result.png)
 ![Q4 within stores](q4b_result.png)
 
-### Q1 onwards (planned)
-- Fastest-growing and declining stores
+### Q5: Which stores are growing fastest, and which are declining?
+See `q5_store_growth.sql`.
+
+**Method:** Compared each store's average weekly sales for Feb-Oct 2010 with Feb-Oct 2012. Using the same months in both years stops the November-December peak from distorting the result.
+
+**Finding:** The fastest-growing stores were Store 38 (+25.8%), Store 39 (+18.2%), Store 44 (+17.1%), Store 7 (+16.9%) and Store 41 (+16.7%). The most declining were Store 36 (-31.6%), Store 35 (-22.4%), Store 14 (-15.4%), Store 27 (-7.3%) and Store 15 (-6.8%). Store 14 and Store 27 are among the top 10 stores by total sales (Q1), so high total sales do not guarantee growth. Stores 38, 44 and 36 have low weekly sales, so their percentage changes look large relative to the amounts involved. The data does not show why these stores changed.
+
+![Q5 result, top rows](q5_result.png)
+![Q5 result, remaining rows](q5_result_2.png)
+
+## Next Steps (planned)
+- Build a dashboard (Power BI or Excel) of the findings above
