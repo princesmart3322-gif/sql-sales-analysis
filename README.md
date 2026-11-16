@@ -47,7 +47,15 @@ See `q2_sales_trend.sql`.
 ![Q2 monthly](q2b_result.png)
 ![Q2 highest and lowest months](q2c_result.png)
 
-### Q3 onwards (planned)
-- Holiday vs non-holiday weeks
+### Q3: Do holiday weeks sell more than normal weeks?
+See `q3_holiday_effect.sql`.
+
+**Finding:** Holiday weeks averaged about 1.12M per store per week against 1.04M for normal weeks (about 7.8% higher). The increase is driven mainly by the two Thanksgiving weeks (26 Nov 2010 at +40.5% and 25 Nov 2011 at +42.1% above the normal-week average). Of the 10 holiday weeks, 6 sold above the normal average and 4 below it, including both late-December weeks (31 Dec 2010 at -13.7% and 30 Dec 2011 at -1.7%). There are only 10 holiday weeks against 133 normal weeks, so the comparison is based on a small sample.
+
+![Q3 holiday vs normal](q3a_result.png)
+![Q3 holiday weeks, top rows](q3b_result.png)
+![Q3 holiday weeks, remaining rows](q3b_result_2.png)
+
+### Q2 onwards (planned)
 - Effect of temperature, fuel price, CPI and unemployment on sales
 - Fastest-growing and declining stores
