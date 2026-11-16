@@ -38,7 +38,6 @@ See `q1_store_ranking.sql`.
 ![Q1 result](q1_result.png)
 
 ### Q2 onwards (planned)
-- Sales trend over time
 - Holiday vs non-holiday weeks
 - Effect of temperature, fuel price, CPI and unemployment on sales
 - Fastest-growing and declining stores
