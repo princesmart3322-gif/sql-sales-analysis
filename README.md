@@ -56,6 +56,15 @@ See `q3_holiday_effect.sql`.
 ![Q3 holiday weeks, top rows](q3b_result.png)
 ![Q3 holiday weeks, remaining rows](q3b_result_2.png)
 
-### Q2 onwards (planned)
-- Effect of temperature, fuel price, CPI and unemployment on sales
+### Q4: Do temperature, fuel price, CPI or unemployment affect sales?
+See `q4_external_factors.sql`.
+
+**Method:** Pearson correlation (`CORR`) between weekly sales and each factor, first across all rows, then within each store and averaged across the 45 stores.
+
+**Finding:** All four factors showed weak correlation with weekly sales (between -0.11 and 0.06 in both approaches), so none of them is a strong predictor on its own. Fuel price was essentially unrelated (0.009 overall, -0.009 within stores). Temperature had the largest within-store effect (-0.109), which may reflect busy winter holiday weeks rather than a direct effect of the weather. CPI changed sign between the two approaches, which suggests its effect is too small to rely on. Correlation does not show cause, and it only captures straight-line relationships.
+
+![Q4 all stores](q4a_result.png)
+![Q4 within stores](q4b_result.png)
+
+### Q1 onwards (planned)
 - Fastest-growing and declining stores
