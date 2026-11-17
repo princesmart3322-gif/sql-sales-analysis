@@ -76,5 +76,13 @@ See `q5_store_growth.sql`.
 ![Q5 result, top rows](q5_result.png)
 ![Q5 result, remaining rows](q5_result_2.png)
 
-## Next Steps (planned)
-- Build a dashboard (Power BI or Excel) of the findings above
+## Dashboard
+Built in WPS Spreadsheets from the SQL query results. File: `walmart_dashboard.xlsx`.
+
+![Walmart Sales Dashboard](dashboard.png)
+
+**Key figures (5 Feb 2010 to 26 Oct 2012):** total sales of 6,737,218,987 across 45 stores, with an average of 1,046,965 in weekly sales per store.
+
+**Notes:**
+- The monthly chart's y-axis starts at 800,000 so the changes are easier to see. This makes the swings look larger than they are.
+- The store growth chart compares Feb-Oct 2010 with Feb-Oct 2012, so both years cover the same months.
